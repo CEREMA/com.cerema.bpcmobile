@@ -1,0 +1,13 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>{{navParams.data.name}}</ion-title>
+	</ion-navbar>
+</ion-header>
+<ion-content>
+	<ion-item-group>
+		<ion-list-header>Services</ion-list-header>
+		<ion-item (click)="loadService(service.Ksub,service.LibSubc)" *ngFor="let service of services">{{service.LibSub}}</ion-item>
+		<ion-list-header>Agents</ion-list-header>
+		<ion-item (click)="loadAgent(agent.Kage,agent.Nom,agent.Prenom)" *ngFor="let agent of agents">{{agent.Nom}} {{agent.Prenom}}</ion-item>		
+	</ion-item-group>
+</ion-content>

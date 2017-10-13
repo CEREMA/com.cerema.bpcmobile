@@ -1,0 +1,13 @@
+!.gitignore
+!.commit
+bin/*
+builds/*
+dev/*
+etc/*
+var/*
+src/System/tmp/*
+src/Contents/Settings.js
+node_modules/*
+src/Contents/Resources/icons/*
+src/Contents/Resources/startup/*
+src/Contents/Resources/theme

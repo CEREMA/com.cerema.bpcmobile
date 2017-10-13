@@ -1,0 +1,10 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>{{navParams.data.unite}}/{{navParams.data.subdi}}</ion-title>
+	</ion-navbar>
+</ion-header>
+<ion-content>
+	<ion-item-group>
+		<ion-item (click)="loadAgent(agent.Kage)" *ngFor="let agent of agents">{{agent.Nom}} {{agent.Prenom}}</ion-item>		
+	</ion-item-group>
+</ion-content>

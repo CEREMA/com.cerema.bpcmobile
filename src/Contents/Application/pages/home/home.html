@@ -1,0 +1,12 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>BPCMobile</ion-title>
+	</ion-navbar>
+</ion-header>
+<ion-content>
+	<button ion-button color="twitter" (click)="Blur()">{{"HELLO"|translate}}</button>
+	<ion-item-group *ngFor="let group of groupedContacts">
+		<ion-list-header>{{group.letter}}</ion-list-header>
+		<ion-item (click)="logEvent(contact)" *ngFor="let contact of group.contacts">{{contact.name}}</ion-item>
+	</ion-item-group>
+</ion-content>

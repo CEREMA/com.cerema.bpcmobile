@@ -1,0 +1,31 @@
+Body
+{
+	background-image: url(mobi/background.png);
+}
+
+.qxAboutBox
+{
+	background-color:#FFFFFF;
+}
+
+.qxAboutLogo
+{
+	background-image:url(startup/logo.png);
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: 128px 128px;
+	width: 128px;
+	height: 128px;	
+}
+
+.AppLogo
+{
+	background-image: url(startup/logo.png);
+	width: 128px;
+	height: 128px;
+}
+
+.Container
+{
+	background-color: white;
+}
